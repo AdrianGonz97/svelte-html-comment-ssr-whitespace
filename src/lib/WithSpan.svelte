@@ -1,6 +1,6 @@
 <span />
 <script>
-	let bar = "bar";
+	let bar = "✅";
 </script>
 
 <span>{bar}</span>

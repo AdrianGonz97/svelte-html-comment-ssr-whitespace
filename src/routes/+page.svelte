@@ -5,10 +5,13 @@
 	import WithSpan from "$lib/WithSpan.svelte";
 </script>
 
-<span>With comment:<WithComment /></span>
+<span>With html comment:<WithComment /></span>
 <br />
-<span>No comment:<NoComment /></span>
 <br />
-<span>No whitespaces:<NoWhitespaces /></span>
+<span>No html comment:<NoComment /></span>
+<br />
+<br />
+<span>No whitespaces + html comment:<NoWhitespaces /></span>
+<br />
 <br />
 <span>`span` instead of a comment:<WithSpan /></span>
